@@ -48,8 +48,16 @@ The custom ROM decoder maps the following 3-bit operations to specific ALU outpu
 
 The ALU is strictly verified using Vivado's simulation suite to ensure mathematical accuracy and correct flag generation across all instruction types. 
 
-Included is a **Verification Testbench** (`ALU_TOP.sv`) that tests:
+Included is a **Verification Testbench** (`ALU_TB.sv`) that tests:
 1. Normal arithmetic bounds.
 2. Arithmetic overflow (Carry flag verification).
 3. Subtraction into negative decimal ranges (Sign flag and Inverted Borrow verification).
 4. Logic masking and bit-shifting edge cases.
+
+## How to Run the Simulation
+1. Clone this repository to your local machine.
+2. Open Xilinx Vivado and create a new RTL project.
+3. Add all `.sv` files in this repository to your Design Sources.
+4. Add `ALU_TB.sv` to your Simulation Sources.
+5. Set `ALU_TB.sv` as the top simulation module.
+6. Run Behavioral Simulation and view the generated waveform/Tcl console output.
