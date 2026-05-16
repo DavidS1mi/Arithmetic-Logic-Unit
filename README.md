@@ -6,7 +6,7 @@
 ![Status](https://img.shields.io/badge/Status-Simulation_Verified-success.svg)
 
 ## Overview
-This repository contains the RTL (Register Transfer Level) design and verification of a fully custom 8-bit Arithmetic Logic Unit (ALU) and instruction data path written in SystemVerilog. 
+This project contains the RTL (Register Transfer Level) design and verification of a fully custom 8-bit Arithmetic Logic Unit (ALU) and instruction data path written in SystemVerilog. 
 
 Designed with foundational digital logic principles, this project demonstrates an understanding of low-level computer architecture, instruction decoding, and hardware verification—skills highly relevant to microprocessor design and semiconductor engineering.
 
