@@ -46,7 +46,7 @@ The custom ROM decoder maps the following 3-bit operations to specific ALU outpu
 
 ## Project's Schematic
 
-
+<img width="1289" height="903" alt="image" src="https://github.com/user-attachments/assets/4082d959-f9ce-4949-a96e-f6d9de05b18f" />
 
 ## Verification & Testing
 
