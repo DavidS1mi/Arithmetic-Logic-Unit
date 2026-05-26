@@ -6,9 +6,9 @@
 ![Status](https://img.shields.io/badge/Status-Simulation_Verified-success.svg)
 
 ## Overview
-This project contains the RTL (Register Transfer Level) design and verification of a fully custom 8-bit Arithmetic Logic Unit (ALU) and instruction data path written in SystemVerilog. 
+This program contains the RTL (Register Transfer Level) design and verification of a fully custom 8-bit Arithmetic Logic Unit (ALU) and instruction data path written in SystemVerilog. 
 
-Designed with foundational digital logic principles, this project demonstrates an understanding of low-level computer architecture, instruction decoding, and hardware verification—skills highly relevant to microprocessor design and semiconductor engineering.
+The project is a highly organized, mathematical switchboard that processes multiple calculations simultaneously. When it receives a command, like adding two numbers together or finding the differences between them—it doesn’t do the math step-by-step. Instead, it sends the numbers to several different specialized calculation zones at the exact same time. While those zones are all busy solving their specific tasks, a central decoder reads the instruction manual to figure out which answer was actually requested. It then operates a master switch to select that specific answer and send it to the final output, instantly discarding the rest. This architecture ensures the system always runs at maximum efficiency, solving complex math problems without ever hesitating to decide what to do next.
 
 ##  Future Scope: Physical Hardware Implementation
 *Note: This architecture is currently verified via RTL simulation. I am in the process of acquiring the necessary physical components (74HC series logic ICs) to transition this digital blueprint into a physical breadboard.*
